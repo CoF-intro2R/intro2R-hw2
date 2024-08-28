@@ -45,7 +45,7 @@ file.create(<results-file.txt>)
 > `The sd of the cell area is <sd units>`.
 
 7) Once you have these working, wrap each of these `paste()` calls in or pipe them to the `write()` function so that these summaries are each written to a new line of the `/Results/data_summaries.txt` file. 
-> **Hint**: Use `?write()` to look into how to *append* lines to a file, or use `paste()` with `sep = \n` to combine each of the character strings into one string with a *newline character* as the separator.
+> **Hint**: Use `?write()` to look into how to *append* lines to a file, or use `paste()` with `sep = "\n"` to combine each of the character strings into one string with a *newline character* as the separator.
 
 8) Check your results and push them up to the remote when you are satisfied.
 
