@@ -17,6 +17,6 @@ jobs:
 
       - name: Run tests
         run: |
-          python test_autograde.py
+          python test_grade.py
 
       - uses: education/autograding@v1
