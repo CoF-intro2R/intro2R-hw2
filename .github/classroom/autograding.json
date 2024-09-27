@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Test directory structure",
+      "run": "pytest test_grade.py::test_dir_struc",  
+      "timeout": 10,  
+      "points": 1 
+    },
+    {
+      "name": "Test that results match answer key",
+      "run": "pytest test_grade.py::test_results",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
